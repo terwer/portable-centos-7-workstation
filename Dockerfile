@@ -1,0 +1,1 @@
+FROM terwer/centos-with-dev-env:1.0.0
