@@ -1,0 +1,285 @@
+[ 1555207266.027415]: IMSettings-Daemon[495]: INFO: Starting imsettings-daemon...
+[ 1555207266.027656]: IMSettings-Daemon[495]: INFO:   [HOME=/home/terwer/.config/imsettings]
+[ 1555207266.027700]: IMSettings-Daemon[495]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1555207266.027738]: IMSettings-Daemon[495]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1555207266.027772]: IMSettings-Daemon[495]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1555207266.027810]: IMSettings-Daemon[495]: INFO:   [MODULES=qt]
+
+
+[ 1555207266.029998]: IMSettings-Qt backend[495]: WARNING **: Unable to read the Qt config file: No such file or directory
+
+[ 1555207266.039024]: IMSettings-Qt backend[495]: WARNING **: Unable to read the Qt config file: No such file or directory
+imsettings information
+==========================
+XINPUTRC: /etc/X11/xinit/xinput.d//none.conf
+	  File: ‘/etc/X11/xinit/xinput.d//none.conf’
+	  Size: 110       	Blocks: 8          IO Block: 4096   regular file
+	Device: 801h/2049d	Inode: 134718      Links: 1
+	Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+	Access: 2018-10-31 03:42:37.000000000 +0800
+	Modify: 2018-10-31 03:42:37.000000000 +0800
+	Change: 2019-04-14 02:47:21.714232700 +0800
+	 Birth: -
+Is DBus enabled: yes
+Is imsettings enabled: yes
+Is GTK+ supported: no
+Is Qt supported: 
+[ 1555207266.086894]: IMSettings-Qt backend[495]: WARNING **: Unable to read the Qt config file: No such file or directory
+
+[ 1555207266.096059]: IMSettings-Qt backend[495]: WARNING **: Unable to read the Qt config file: No such file or directory
+yes
+DESKTOP: unknown
+GUESS_DESKTOP: 
+DISABLE_IMSETTINGS: 
+IMSETTINGS_DISABLE_DESKTOP_CHECK: 
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-3CFuEQKNgd,guid=4c23536d6cd48c4a083236925cb29461
+GTK_IM_MODULE: gtk-im-context-simple
+QT_IM_MODULE: xim
+XMODIFIERS: @im=none
+IMSETTINGS_MODULE: none
+IMSETTINGS_INTEGRATE_DESKTOP: yes
+
+[ 1555207266.152381]: IMSettings-Daemon[495]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1555207266.152602]: GLib-GIO[495]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1555207266.152688]: GLib-GIO[495]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1555207266.152913]: IMSettings-Daemon[495]: INFO: Unloading imesttings module: qt
+[ 1555207266.154308]: IMSettings-Daemon[495]: INFO: imsettings-daemon is shut down.
+[ 1555207328.181591]: IMSettings-Daemon[638]: INFO: Starting imsettings-daemon...
+[ 1555207328.181735]: IMSettings-Daemon[638]: INFO:   [HOME=/home/terwer/.config/imsettings]
+[ 1555207328.181795]: IMSettings-Daemon[638]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1555207328.185962]: IMSettings-Daemon[638]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1555207328.186033]: IMSettings-Daemon[638]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1555207328.186884]: IMSettings-Daemon[638]: INFO:   [MODULES=qt]
+
+
+[ 1555207328.192722]: IMSettings-Qt backend[638]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1555207328.324064]: IMSettings-Daemon[638]: INFO: Attempting to switch IM to IBus [lang=en_US.UTF-8, update=false]
+[ 1555207329.290975]: IMSettings-Daemon[638]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1555207329.291129]: IMSettings-Daemon[638]: INFO:   Starting the main process for IBus [lang:en_US.UTF-8]
+[ 1555207329.297844]: IMSettings-Daemon[638]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: en_US.UTF-8, pid: 814, id: 10, time: 2019-04-14T02:02:09.297789Z
+
+[ 1555207329.297965]: IMSettings-Qt backend[638]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1555207416.145300]: IMSettings-Daemon[638]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1555207416.145791]: GLib-GIO[638]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1555207416.145880]: GLib-GIO[638]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1555207416.146022]: IMSettings-Daemon[638]: INFO: Unloading imesttings module: qt
+[ 1555207416.146163]: IMSettings-Daemon[638]: INFO:   Stopping the main process for IBus [pid: 814]
+[ 1555207416.146313]: IMSettings-Daemon[638]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 814, time: 2019-04-14T02:03:36.146300Z]
+[ 1555207416.146367]: IMSettings-Daemon[638]: INFO: imsettings-daemon is shut down.
+[ 1555207424.684934]: IMSettings-Daemon[994]: INFO: Starting imsettings-daemon...
+[ 1555207424.685034]: IMSettings-Daemon[994]: INFO:   [HOME=/home/terwer/.config/imsettings]
+[ 1555207424.685074]: IMSettings-Daemon[994]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1555207424.685110]: IMSettings-Daemon[994]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1555207424.685145]: IMSettings-Daemon[994]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1555207424.685181]: IMSettings-Daemon[994]: INFO:   [MODULES=qt]
+
+
+[ 1555207424.703070]: IMSettings-Qt backend[994]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1555207424.808049]: IMSettings-Daemon[994]: INFO: Attempting to switch IM to IBus [lang=en_US.UTF-8, update=false]
+[ 1555207425.121225]: IMSettings-Daemon[994]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1555207425.121330]: IMSettings-Daemon[994]: INFO:   Starting the main process for IBus [lang:en_US.UTF-8]
+[ 1555207425.122521]: IMSettings-Daemon[994]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: en_US.UTF-8, pid: 1177, id: 10, time: 2019-04-14T02:03:45.122479Z
+
+[ 1555207425.122614]: IMSettings-Qt backend[994]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1555207679.021397]: IMSettings-Daemon[994]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1555207679.021626]: GLib-GIO[994]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1555207679.021694]: GLib-GIO[994]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1555207679.021797]: IMSettings-Daemon[994]: INFO: Unloading imesttings module: qt
+[ 1555207679.021881]: IMSettings-Daemon[994]: INFO:   Stopping the main process for IBus [pid: 1177]
+[ 1555207679.021966]: IMSettings-Daemon[994]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 1177, time: 2019-04-14T02:07:59.021959Z]
+[ 1555207679.022072]: IMSettings-Daemon[994]: INFO: imsettings-daemon is shut down.
+[ 1555207767.027982]: IMSettings-Daemon[191]: INFO: Starting imsettings-daemon...
+[ 1555207767.028099]: IMSettings-Daemon[191]: INFO:   [HOME=/home/terwer/.config/imsettings]
+[ 1555207767.028141]: IMSettings-Daemon[191]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1555207767.028178]: IMSettings-Daemon[191]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1555207767.028213]: IMSettings-Daemon[191]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1555207767.028251]: IMSettings-Daemon[191]: INFO:   [MODULES=qt]
+
+
+[ 1555207767.029573]: IMSettings-Qt backend[191]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1555207767.067376]: IMSettings-Daemon[191]: INFO: Attempting to switch IM to IBus [lang=en_US.UTF-8, update=false]
+[ 1555207767.551194]: IMSettings-Daemon[191]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1555207767.551310]: IMSettings-Daemon[191]: INFO:   Starting the main process for IBus [lang:en_US.UTF-8]
+[ 1555207767.552320]: IMSettings-Daemon[191]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: en_US.UTF-8, pid: 379, id: 10, time: 2019-04-14T02:09:27.552278Z
+
+[ 1555207767.552417]: IMSettings-Qt backend[191]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1555209862.165232]: IMSettings-Daemon[191]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1555209862.181672]: IMSettings-Daemon[191]: WARNING **: main Input Method process for IBus died with the signal 15, but unexpectedly. restarting...
+[ 1555209862.181797]: IMSettings-Daemon[191]: INFO:   Starting the main process for IBus [lang:en_US.UTF-8]
+[ 1555209862.201098]: IMSettings-Daemon[191]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: en_US.UTF-8, pid: 1564, id: 16, time: 2019-04-14T02:44:22.201078Z
+
+[ 1555209862.201946]: GLib-GIO[191]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1555209862.202164]: GLib-GIO[191]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1555209862.202384]: IMSettings-Daemon[191]: INFO: Unloading imesttings module: qt
+[ 1555209862.202497]: IMSettings-Daemon[191]: INFO:   Stopping the main process for IBus [pid: 1564]
+[ 1555209862.202557]: IMSettings-Daemon[191]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 1564, time: 2019-04-14T02:44:22.202550Z]
+[ 1555209862.202614]: IMSettings-Daemon[191]: INFO: imsettings-daemon is shut down.
+[ 1652907653.780447]: IMSettings-Daemon[166]: INFO: Starting imsettings-daemon...
+[ 1652907653.822510]: IMSettings-Daemon[166]: INFO:   [HOME=/home/terwer/.config/imsettings]
+[ 1652907653.822554]: IMSettings-Daemon[166]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1652907653.822590]: IMSettings-Daemon[166]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1652907653.822640]: IMSettings-Daemon[166]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1652907653.822687]: IMSettings-Daemon[166]: INFO:   [MODULES=qt]
+
+
+[ 1652907653.823988]: IMSettings-Qt backend[166]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1652907653.843711]: IMSettings-Daemon[166]: INFO: Attempting to switch IM to IBus [lang=en_US.UTF-8, update=false]
+[ 1652907653.951180]: IMSettings-Daemon[166]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1652907653.951298]: IMSettings-Daemon[166]: INFO:   Starting the main process for IBus [lang:en_US.UTF-8]
+[ 1652907653.952252]: IMSettings-Daemon[166]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: en_US.UTF-8, pid: 366, id: 10, time: 2022-05-18T21:00:53.952211Z
+
+[ 1652907653.952357]: IMSettings-Qt backend[166]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1652935096.622739]: IMSettings-Daemon[112]: INFO: Starting imsettings-daemon...
+[ 1652935096.622827]: IMSettings-Daemon[112]: INFO:   [HOME=/home/terwer/.config/imsettings]
+[ 1652935096.622866]: IMSettings-Daemon[112]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1652935096.622896]: IMSettings-Daemon[112]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1652935096.622926]: IMSettings-Daemon[112]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1652935096.622957]: IMSettings-Daemon[112]: INFO:   [MODULES=qt]
+
+
+[ 1652935096.624408]: IMSettings-Qt backend[112]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1652935096.642486]: IMSettings-Daemon[112]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+[ 1652935096.744558]: IMSettings-Daemon[112]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1652935096.744653]: IMSettings-Daemon[112]: INFO:   Starting the main process for IBus [lang:C]
+[ 1652935096.745555]: IMSettings-Daemon[112]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 326, id: 10, time: 2022-05-19T04:38:16.745524Z
+
+[ 1652935096.745610]: IMSettings-Qt backend[112]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1652935981.533960]: IMSettings-Daemon[107]: INFO: Starting imsettings-daemon...
+[ 1652935981.534091]: IMSettings-Daemon[107]: INFO:   [HOME=/home/terwer/.config/imsettings]
+[ 1652935981.534124]: IMSettings-Daemon[107]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1652935981.534156]: IMSettings-Daemon[107]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1652935981.534186]: IMSettings-Daemon[107]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1652935981.534220]: IMSettings-Daemon[107]: INFO:   [MODULES=qt]
+
+
+[ 1652935981.535806]: IMSettings-Qt backend[107]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1652935981.558373]: IMSettings-Daemon[107]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+[ 1652935981.665816]: IMSettings-Daemon[107]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1652935981.665892]: IMSettings-Daemon[107]: INFO:   Starting the main process for IBus [lang:C]
+[ 1652935981.666677]: IMSettings-Daemon[107]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 307, id: 10, time: 2022-05-19T04:53:01.666628Z
+
+[ 1652935981.666762]: IMSettings-Qt backend[107]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1652936065.902428]: IMSettings-Daemon[107]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1652936065.902603]: GLib-GIO[107]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1652936065.902699]: GLib-GIO[107]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1652936065.902797]: IMSettings-Daemon[107]: INFO: Unloading imesttings module: qt
+[ 1652936065.902882]: IMSettings-Daemon[107]: INFO:   Stopping the main process for IBus [pid: 307]
+[ 1652936065.903031]: IMSettings-Daemon[107]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 307, time: 2022-05-19T04:54:25.903024Z]
+[ 1652936065.903080]: IMSettings-Daemon[107]: INFO: imsettings-daemon is shut down.
+[ 1652936175.819100]: IMSettings-Daemon[106]: INFO: Starting imsettings-daemon...
+[ 1652936175.819179]: IMSettings-Daemon[106]: INFO:   [HOME=/home/terwer/.config/imsettings]
+[ 1652936175.819219]: IMSettings-Daemon[106]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1652936175.819254]: IMSettings-Daemon[106]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1652936175.819287]: IMSettings-Daemon[106]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1652936175.819319]: IMSettings-Daemon[106]: INFO:   [MODULES=qt]
+
+
+[ 1652936175.820853]: IMSettings-Qt backend[106]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1652936175.838349]: IMSettings-Daemon[106]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+[ 1652936175.943460]: IMSettings-Daemon[106]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1652936175.943552]: IMSettings-Daemon[106]: INFO:   Starting the main process for IBus [lang:C]
+[ 1652936175.944644]: IMSettings-Daemon[106]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 307, id: 10, time: 2022-05-19T04:56:15.944581Z
+
+[ 1652936175.944734]: IMSettings-Qt backend[106]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1652936198.178236]: IMSettings-Daemon[106]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1652936198.178403]: GLib-GIO[106]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1652936198.178459]: GLib-GIO[106]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1652936198.178548]: IMSettings-Daemon[106]: INFO: Unloading imesttings module: qt
+[ 1652936198.178654]: IMSettings-Daemon[106]: INFO:   Stopping the main process for IBus [pid: 307]
+[ 1652936198.178773]: IMSettings-Daemon[106]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 307, time: 2022-05-19T04:56:38.178768Z]
+[ 1652936198.178822]: IMSettings-Daemon[106]: INFO: imsettings-daemon is shut down.
+[ 1652936248.572244]: IMSettings-Daemon[111]: INFO: Starting imsettings-daemon...
+[ 1652936248.572334]: IMSettings-Daemon[111]: INFO:   [HOME=/home/terwer/.config/imsettings]
+[ 1652936248.572396]: IMSettings-Daemon[111]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1652936248.572439]: IMSettings-Daemon[111]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1652936248.572471]: IMSettings-Daemon[111]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1652936248.572504]: IMSettings-Daemon[111]: INFO:   [MODULES=qt]
+
+
+[ 1652936248.574073]: IMSettings-Qt backend[111]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1652936248.595174]: IMSettings-Daemon[111]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+[ 1652936248.688348]: IMSettings-Daemon[111]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1652936248.688403]: IMSettings-Daemon[111]: INFO:   Starting the main process for IBus [lang:C]
+[ 1652936248.689076]: IMSettings-Daemon[111]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 326, id: 10, time: 2022-05-19T04:57:28.689049Z
+
+[ 1652936248.689135]: IMSettings-Qt backend[111]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1652937171.924303]: IMSettings-Daemon[110]: INFO: Starting imsettings-daemon...
+[ 1652937171.924387]: IMSettings-Daemon[110]: INFO:   [HOME=/home/terwer/.config/imsettings]
+[ 1652937171.924422]: IMSettings-Daemon[110]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1652937171.924469]: IMSettings-Daemon[110]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1652937171.924503]: IMSettings-Daemon[110]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1652937171.924538]: IMSettings-Daemon[110]: INFO:   [MODULES=qt]
+
+
+[ 1652937171.925934]: IMSettings-Qt backend[110]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1652937171.947485]: IMSettings-Daemon[110]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+[ 1652937172.046557]: IMSettings-Daemon[110]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1652937172.046616]: IMSettings-Daemon[110]: INFO:   Starting the main process for IBus [lang:C]
+[ 1652937172.047165]: IMSettings-Daemon[110]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 327, id: 10, time: 2022-05-19T05:12:52.047138Z
+
+[ 1652937172.047217]: IMSettings-Qt backend[110]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1652937703.433410]: IMSettings-Daemon[110]: INFO: Release the ownership of com.redhat.imsettings
+
+
+[ 1652937703.433597]: GLib-GIO[110]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1652937703.433661]: GLib-GIO[110]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1652937703.433757]: IMSettings-Daemon[110]: INFO: Unloading imesttings module: qt
+[ 1652937703.433836]: IMSettings-Daemon[110]: INFO:   Stopping the main process for IBus [pid: 327]
+[ 1652937703.433939]: IMSettings-Daemon[110]: INFO: Sent a signal to stop /usr/bin/ibus-daemon [pid: 327, time: 2022-05-19T05:21:43.433932Z]
+[ 1652937703.433988]: IMSettings-Daemon[110]: INFO: imsettings-daemon is shut down.
+[ 1652938002.215794]: IMSettings-Daemon[107]: INFO: Starting imsettings-daemon...
+[ 1652938002.215878]: IMSettings-Daemon[107]: INFO:   [HOME=/home/terwer/.config/imsettings]
+[ 1652938002.215928]: IMSettings-Daemon[107]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1652938002.215968]: IMSettings-Daemon[107]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1652938002.215996]: IMSettings-Daemon[107]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1652938002.216023]: IMSettings-Daemon[107]: INFO:   [MODULES=qt]
+
+
+[ 1652938002.217870]: IMSettings-Qt backend[107]: WARNING **: Unable to read the Qt config file: No such file or directory
+[ 1652938002.240550]: IMSettings-Daemon[107]: INFO: Attempting to switch IM to IBus [lang=C, update=false]
+[ 1652938002.349913]: IMSettings-Daemon[107]: INFO:   no need to invoke any auxiliary process for IBus
+[ 1652938002.349968]: IMSettings-Daemon[107]: INFO:   Starting the main process for IBus [lang:C]
+[ 1652938002.350764]: IMSettings-Daemon[107]: INFO:   Started IBus: [process: /usr/bin/ibus-daemon -r --xim, lang: C, pid: 303, id: 10, time: 2022-05-19T05:26:42.350721Z
+
+[ 1652938002.350875]: IMSettings-Qt backend[107]: WARNING **: Unable to read the Qt config file: No such file or directory

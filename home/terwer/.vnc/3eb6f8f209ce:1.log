@@ -1,0 +1,46 @@
+
+Xvnc TigerVNC 1.8.0 - built Nov  2 2018 19:05:14
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12001000, The X.Org Foundation
+
+
+Thu May 19 12:57:25 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+xrdb: No such file or directory
+xrdb: can't open file '/home/terwer/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+
+(xfce4-session:56): xfce4-session-WARNING **: 12:57:28.543: xfsm_manager_load_session: Something wrong with /home/terwer/.cache/sessions/xfce4-session-3eb6f8f209ce:1, Does it exist? Permissions issue?
+
+(xfsettingsd:103): xfsettingsd-WARNING **: 12:57:28.570: Unknown mode '1536x889 @ 60.0' for output VNC-0, aborting.
+
+** (xfce-polkit:105): CRITICAL **: 12:57:28.573: polkit_agent_listener_register_with_options: assertion 'POLKIT_IS_SUBJECT (subject)' failed
+
+(xfwm4:93): xfwm4-WARNING **: 12:57:28.640: Error opening /dev/dri/card0: No such file or directory
+
+** (xfce4-session:56): CRITICAL **: 12:57:28.690: polkit_authority_check_authorization_sync: assertion 'POLKIT_IS_AUTHORITY (authority)' failed
+
+(xfce4-session:56): GLib-CRITICAL **: 12:57:28.690: g_propagate_error: assertion 'src != NULL' failed
+
+** (xfce4-session:56): CRITICAL **: 12:57:28.690: polkit_authority_check_authorization_sync: assertion 'POLKIT_IS_AUTHORITY (authority)' failed
+
+(xfce4-session:56): GLib-CRITICAL **: 12:57:28.690: g_propagate_error: assertion 'src != NULL' failed
+
+** (xfce4-session:56): CRITICAL **: 12:57:28.690: polkit_authority_check_authorization_sync: assertion 'POLKIT_IS_AUTHORITY (authority)' failed
+
+(xfce4-session:56): GLib-CRITICAL **: 12:57:28.690: g_propagate_error: assertion 'src != NULL' failed
+
+(xfce4-session:56): xfce4-session-WARNING **: 12:57:28.691: failed to run script: Failed to execute child process ?/usr/bin/pm-is-supported? (No such file or directory)
+
+** (xfce4-session:56): CRITICAL **: 12:57:28.692: polkit_authority_check_authorization_sync: assertion 'POLKIT_IS_AUTHORITY (authority)' failed
+
+(xfce4-session:56): GLib-CRITICAL **: 12:57:28.692: g_propagate_error: assertion 'src != NULL' failed
+
+(xfce4-session:56): xfce4-session-WARNING **: 12:57:28.693: failed to run script: Failed to execute child process ?/usr/bin/pm-is-supported? (No such file or directory)

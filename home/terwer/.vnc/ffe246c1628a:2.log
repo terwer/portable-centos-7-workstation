@@ -1,0 +1,58 @@
+
+Xvnc TigerVNC 1.8.0 - built Nov  2 2018 19:05:14
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12001000, The X.Org Foundation
+
+
+Thu May 19 12:56:12 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5902
+ vncext:      created VNC server for screen 0
+xrdb: No such file or directory
+xrdb: can't open file '/home/terwer/.Xresources'
+/usr/bin/startxfce4: X server already running on display :2
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+generating cookie with syscall
+
+(xfce4-session:56): xfce4-session-WARNING **: 12:56:15.796: xfsm_manager_load_session: Something wrong with /home/terwer/.cache/sessions/xfce4-session-ffe246c1628a:2, Does it exist? Permissions issue?
+
+(xfsettingsd:99): xfsettingsd-WARNING **: 12:56:15.819: Unknown mode '1536x889 @ 60.0' for output VNC-0, aborting.
+
+** (xfce-polkit:102): CRITICAL **: 12:56:15.820: polkit_agent_listener_register_with_options: assertion 'POLKIT_IS_SUBJECT (subject)' failed
+
+(xfwm4:89): xfwm4-WARNING **: 12:56:15.886: Error opening /dev/dri/card0: No such file or directory
+
+** (xfce4-session:56): CRITICAL **: 12:56:15.956: polkit_authority_check_authorization_sync: assertion 'POLKIT_IS_AUTHORITY (authority)' failed
+
+(xfce4-session:56): GLib-CRITICAL **: 12:56:15.956: g_propagate_error: assertion 'src != NULL' failed
+
+** (xfce4-session:56): CRITICAL **: 12:56:15.956: polkit_authority_check_authorization_sync: assertion 'POLKIT_IS_AUTHORITY (authority)' failed
+
+(xfce4-session:56): GLib-CRITICAL **: 12:56:15.956: g_propagate_error: assertion 'src != NULL' failed
+
+** (xfce4-session:56): CRITICAL **: 12:56:15.957: polkit_authority_check_authorization_sync: assertion 'POLKIT_IS_AUTHORITY (authority)' failed
+
+(xfce4-session:56): GLib-CRITICAL **: 12:56:15.957: g_propagate_error: assertion 'src != NULL' failed
+
+(xfce4-session:56): xfce4-session-WARNING **: 12:56:15.958: failed to run script: Failed to execute child process ?/usr/bin/pm-is-supported? (No such file or directory)
+
+** (xfce4-session:56): CRITICAL **: 12:56:15.958: polkit_authority_check_authorization_sync: assertion 'POLKIT_IS_AUTHORITY (authority)' failed
+
+(xfce4-session:56): GLib-CRITICAL **: 12:56:15.958: g_propagate_error: assertion 'src != NULL' failed
+
+(xfce4-session:56): xfce4-session-WARNING **: 12:56:15.959: failed to run script: Failed to execute child process ?/usr/bin/pm-is-supported? (No such file or directory)
+xfce4-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :2.
+xfwm4: Fatal IO error 104 (Connection reset by peer) on X server :2.0.
+
+(xfsettingsd:99): libxfce4ui-WARNING **: 12:56:38.178: ICE I/O Error
+
+(xfsettingsd:99): libxfce4ui-WARNING **: 12:56:38.178: Disconnected from session manager.
+xfce4-panel: Fatal IO error 11 (Resource temporarily unavailable) on X server :2.0.
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :2.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :2.0.
+xfce-polkit: Fatal IO error 11 (Resource temporarily unavailable) on X server :2.0.
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :2.0.
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :2.0.

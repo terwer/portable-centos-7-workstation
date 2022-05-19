@@ -1,3 +1,16 @@
+# 每次修改配置需要重新打包镜像并重建
+# !!! 注意，此操作会删除所有的手动改动数据
+# docker-compose --log-level INFO up -d --build --force-recreate docker-centos-vnc
+# 一般修改脚本只需要用下面的
+# docker-compose --log-level INFO up -d --build docker-centos-vnc
+# 常规启动
+# docker-compose --log-level INFO up -d
+
+# FOR DEV ONLY
+# docker-compose --log-level INFO up --build --force-recreate docker-centos-vnc
+# docker-compose --log-level INFO up --build docker-centos-vnc
+# docker-compose --log-level INFO up
+
 version: '3'
 services:
   docker-centos-vnc:
@@ -18,5 +31,7 @@ services:
       - 8091:8091
       - 9090:9090
     volumes:
+      - ./home:/home
+      - ./app:/app
+      - ./env:/env
       - ./share:/share
-      - ./sys/fs/cgroup:/sys/fs/cgroup:ro
