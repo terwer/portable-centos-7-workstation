@@ -4,6 +4,7 @@
 mkdir -p /home/terwer/.vnc
 rm -rf ~/.vnc/xstartup
 cp -r /config/vnc-xfce/.vnc/xstartup ~/.vnc/xstartup
+chmod 777 ~/.vnc/xstartup
 echo "set vnc to xfce4 session"
 
 # 更新最新vnc配置
