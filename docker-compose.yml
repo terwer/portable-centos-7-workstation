@@ -4,9 +4,7 @@
 version: '3'
 services:
   centos-7-vnc:
-    privileged: true
-    tty: true
-    image: terwer/centos:7
+    image: terwer/centos7:7
     container_name: centos-7-vnc
     build:
       context: ./centos-7-vnc
@@ -21,8 +19,12 @@ services:
       - "8091:8091"
       - "9090:9090"
     volumes:
-      - ./centos-7-vnc/home:/home
+      - ./centos-7-vnc/mytemp:/mytemp
+      - ./centos-7-vnc/config:/config
       - ./centos-7-vnc/env:/env
       - ./centos-7-vnc/app:/app
       - ./centos-7-vnc/scripts:/scripts
       - ./centos-7-vnc/workspace:/workspace
+    privileged: true
+    tty: true
+    stdin_open: true

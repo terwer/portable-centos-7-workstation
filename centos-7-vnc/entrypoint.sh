@@ -1,25 +1,23 @@
-#!/bin/sh
+#!/bin/zsh
 
-echo "rebuild workspace"
+# =========================
+# 备份
+# =========================
+# backup
+source /scripts/backup.sh
 
-## right
-#RIGHT_SCRIPT_PATH="/scripts/right.sh"
-#source "$RIGHT_SCRIPT_PATH"
-#
-## update
-#UPDATE_SCRIPT_PATH="/scripts/update.sh"
-#source "$UPDATE_SCRIPT_PATH"
-#
-## zsh-should only exec once
-#ZSH_SCRIPT_PATH="/scripts/zsh.sh"
-#source "$ZSH_SCRIPT_PATH"
-#
-#echo "set env finished."
-#
-## start vncserver
-#echo "vncserver is starting..."
-#vncserver
-#echo "vncserver started."
+# =========================
+# 初始化
+# =========================
+# init
+source /scripts/init.sh
 
+# =========================
+# 启动应用
+# =========================
+# vncserver
+source /scripts/start_vncserver.sh
+
+echo "centos 7 is successfully started"
 echo "back to zsh shell=>"
 zsh
