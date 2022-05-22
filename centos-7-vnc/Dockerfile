@@ -37,6 +37,10 @@ RUN dnf install neofetch -y
 # 安装开发工具
 RUN dnf groupinstall "Development Tools" -y
 
+RUN dnf groupinstall "X Window System" -y \
+    && dnf groupinstall xfce -y \
+    && dnf install pixman pixman-devel libXfont -y
+
 # 升级git2
 RUN dnf install \
     https://repo.ius.io/ius-release-el7.rpm \
@@ -44,9 +48,6 @@ RUN dnf install \
     -y
 RUN yum remove git -y
 RUN yum install git224 -y
-
-# 安装桌面环境
-RUN dnf groupinstall "xfce" -y
 
 # 安装字体
 RUN dnf -y groupinstall "fonts"
@@ -99,6 +100,47 @@ USER root
 RUN dnf install firefox -y
 # emacs
 RUN dnf install emacs -y
+# gedit
+RUN dnf install gedit -y
+
+# ibus中文输入法
+# RUN dnf install ibus.x86_64 -y \
+#     && dnf install ibus-libpinyin.x86_64 -y \
+#     && dnf install im-chooser.x86_64 -y 
+# RUN dnf install ibus-setup \
+# libusbmuxd \
+# ibus-libs \
+# ibus-kkc \
+# ibus-gtk3 \
+# libuser-python \
+# libusbx \
+# ibus-gtk2 \
+# ibus-table-chinese \
+# libuser \
+# ibus \
+# ibus-table \
+# libusal \
+# ibus-libpinyin \
+# -y
+
+# fcitx输入法
+RUN dnf remove ibus -y
+RUN dnf remove imsettings imsettings-libs im-chooser -y
+RUN dnf install fcitx fcitx-pinyin fcitx-configtool -y
+
+# 更新软件
+RUN yum -y upgrade
+# 安装中文包
+RUN yum install -y kde-l10n-Chinese
+# 重新安装glibc-common
+RUN yum -y reinstall glibc-common
+# 编译生成语言库
+RUN localedef -c -f UTF-8 -i zh_CN zh_CN.utf8
+# 设置语言默认值为中文，时区改为东八区
+RUN echo 'LANG="zh_CN.UTF-8"' > /etc/locale.conf
+RUN cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+ENV LANG zh_CN.UTF-8
+ENV LC_ALL zh_CN.UTF-8
 
 # =================================
 # 从这里开始操作不再拥有ROOT权限

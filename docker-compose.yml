@@ -19,6 +19,7 @@ services:
       - "8091:8091"
       - "9090:9090"
     volumes:
+      - ./centos-7-vnc/sys/fs/cgroup:/sys/fs/cgroup:ro
       - ./centos-7-vnc/mytemp:/mytemp
       - ./centos-7-vnc/config:/config
       - ./centos-7-vnc/env:/env
