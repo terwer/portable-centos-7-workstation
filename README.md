@@ -31,6 +31,7 @@ copy apps to app forder, like
 cp -r /Users/terwer/Documents/share/portable-linux-sync/app ./centos-7-vnc
 
 # windows
+cp -r /mnt/c/share/同步空间/portable-linux-sync/app ./centos-7-vnc
 
 # then
 cd /app
@@ -53,9 +54,10 @@ copy workspace files to workspace forder, like
 
 ```
 # macOS
-cp -r /Users/terwer/Documents/share/portable-linux-sync/workspace ./rocky-linux-vnc
+cp -r /Users/terwer/Documents/share/portable-linux-sync/workspace ./centos-7-vnc
 
 # windows
+cp -r /mnt/c/share/同步空间/portable-linux-sync/workspace ./centos-7-vnc
 ```
 
 then visit then via
