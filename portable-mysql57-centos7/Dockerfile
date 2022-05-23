@@ -10,7 +10,7 @@
 # docker exec -it portable-mysql57 zsh
 
 # 登录容器MySQL
-# docker exec -it portable-mysql57 mysql -uroot -p123456
+# docker exec -it portable-mysql57-centos7 mysql -uroot -p123456
 # show variables like 'character%';
 # select now();
 
@@ -30,7 +30,7 @@ ENV TZ CST-8
 # docker exec -it --user root portable-mysql57 /bin/bash
 # ifconfig
 # or
-# docker inspect portable-mysql57-arch | grep IPAddres
+# docker inspect portable-mysql57-centos7 | grep IPAddres
 
 # 替换配置文件
 COPY ./conf/my.cnf /etc/my.cnf

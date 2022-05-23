@@ -142,6 +142,9 @@ RUN cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ENV LANG zh_CN.UTF-8
 ENV LC_ALL zh_CN.UTF-8
 
+# 配置中文字体
+# https://its401.com/article/oZuoZuoZuoShi/118977701
+
 # =================================
 # 从这里开始操作不再拥有ROOT权限
 # =================================
