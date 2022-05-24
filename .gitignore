@@ -5,3 +5,4 @@ app
 workspace
 data
 .ssh
+.DS_Store
