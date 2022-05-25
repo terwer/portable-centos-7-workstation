@@ -4,7 +4,7 @@
 # 备份
 # =========================
 # backup
-source /scripts/backup.sh
+# source /scripts/backup.sh
 
 # =========================
 # 初始化
@@ -17,6 +17,9 @@ source /scripts/init.sh
 # =========================
 # vncserver
 source /scripts/start_vncserver.sh
+
+# office
+# dnf install libreoffice -y
 
 echo "centos 7 is successfully started"
 echo "back to zsh shell=>"

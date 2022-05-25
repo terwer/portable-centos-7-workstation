@@ -46,8 +46,8 @@ RUN dnf install \
     https://repo.ius.io/ius-release-el7.rpm \
     https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm \
     -y
-RUN yum remove git -y
-RUN yum install git224 -y
+RUN dnf remove git -y
+RUN dnf install git224 -y
 
 # 安装字体
 RUN dnf -y groupinstall "fonts"
